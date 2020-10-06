@@ -1,0 +1,99 @@
+#Contain:after {
+    width: Calc(100%-15px);
+    display: contents;
+    content: "";
+    height: auto;
+}
+
+.setting9 {
+    background-color: rgb(242, 242, 247);
+}
+
+#corner,
+#left1,
+#center1,
+#right1 {
+    float: left;
+    padding: 30px 5px;
+    text-align: left;
+    justify-content: center;
+}
+
+#left1 {
+    width: 45%;
+
+}
+
+
+#corner,
+#center1,
+#right1 {
+    width: 15%;
+
+}
+
+.ff {
+    font-size: 2.5vw;
+    padding: 0px 15px;
+}
+
+.ff:hover,
+.fc:hover {
+    color: white;
+    background-color: rgba(170, 65, 231);
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.but1,
+.but2 {
+
+    border: none;
+    padding: 10px 41px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 1vw;
+
+}
+
+.but2:hover {
+    box-sizing: border-box;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.but1:hover {
+    box-sizing: border-box;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.but1:hover,
+.but2:hover {
+    padding: 10px 41px !important;
+
+}
+
+.but1 {
+    background-color: white;
+}
+
+.but2 {
+    color: white;
+    background-color: rgb(228, 91, 54);
+}
+
+.colrs {
+    background-color: rgb(205, 205, 214);
+    width: Calc(100%-15px);
+
+}
+
+.bottomcopy {
+    float: left;
+    padding: 1% 2%;
+}
+
+.bottommobo {
+    float: right;
+    padding: 1% 3%;
+}

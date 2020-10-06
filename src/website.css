@@ -1,0 +1,66 @@
+#Container::after {
+    content: "";
+    clear: both;
+    display: contents;
+    width: 100%;
+    text-align: left;
+
+
+}
+
+#Left {
+    float: left;
+    width: 48%;
+    color: whitesmoke;
+
+
+}
+
+
+
+#Right {
+    float: left;
+    width: 48%;
+
+
+}
+
+p {
+    font-size: 2vw !important;
+    font-family: 'Suravaram', serif !important;
+}
+
+#Left,
+#Right {
+    margin: 5% 1%;
+
+}
+
+.butts {
+    background-color: #ffffff;
+    /* White */
+    border: none;
+    color: darkgray;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 1.5vw;
+
+
+
+}
+
+.butts:hover {
+    background-color: #ffffff !important;
+    /* White */
+    border: none !important;
+    color: darkgray !important;
+    padding: 12px 20px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    border-radius: 10px !important;
+    font-size: 1.5vw !important;
+}

@@ -1,0 +1,35 @@
+#container:after {
+    width: Calc(100%-15px);
+    display: contents;
+    content: "";
+    height: auto;
+}
+
+#left,
+#center,
+#right {
+    float: left;
+
+    text-align: left;
+    justify-content: center;
+}
+
+
+#left {
+    width: 50%;
+
+
+}
+
+#center,
+#right,
+#left {
+    margin: 5% 0%;
+}
+
+#center,
+#right {
+    width: 25%;
+
+
+}
