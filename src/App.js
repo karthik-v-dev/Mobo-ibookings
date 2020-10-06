@@ -73,9 +73,9 @@ class App extends React.Component {
 									</Link>
 								</li>
 								<li className='nav-item '>
-									<a className='nav-link'>
+									<Link className='nav-link'>
 										<i class='fa fa-bars' id='hid'></i>
-									</a>
+									</Link>
 									{/* <a
 										className='navbar-toggler hidden-lg-up'
 										type='button'

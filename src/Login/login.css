@@ -8,7 +8,15 @@
 
 .back {
 
-	background: linear-gradient(180deg, #69b993, #83ba9f, #9abbac, #b0bcb9, #c0c0c4, #cbc7cd, #d6cfd7, #e1d6e1);
+	background: linear-gradient(180deg,
+			#ffffff,
+			#ffffff,
+			#b0efe1,
+			#88eee7,
+			#6de9f8,
+			#81deff,
+			#a4d1ff,
+			#c3c3f6);
 }
 
 @media only screen and (min-width: 496px) {
@@ -29,8 +37,13 @@ label {
 	font-size: 1.5vw !important;
 }
 
-.Con {
-	margin-top: 5% !important;
+
+#Lef {
+	margin-top: 140px !important;
+}
+
+#Rig {
+	margin-top: 100px !important;
 }
 
 .btn-dark {
