@@ -50,11 +50,21 @@ h5 {
     .row {
         padding-top: 23% !important;
     }
+
+    .FqnKTc,
+    .table .form-control {
+        margin-top: 4px !important;
+    }
 }
 
 @media only screen and (min-width: 768px) {
     .row {
         padding-top: 25% !important;
+    }
+
+    .FqnKTc,
+    .table .form-control {
+        margin-top: 4px !important;
     }
 }
 
@@ -62,17 +72,33 @@ h5 {
     .row {
         padding-top: 28%;
     }
+
+
+    .FqnKTc,
+    .table .form-control {
+        margin-top: 4px !important;
+    }
 }
 
 @media only screen and (min-width: 375px) {
     .row {
         padding-top: 40%;
     }
+
+    .FqnKTc,
+    .table .form-control {
+        margin-top: 6px !important;
+    }
 }
 
 @media only screen and (max-width: 375px) {
     .row {
         padding-top: 80%;
+    }
+
+    .FqnKTc,
+    .table .form-control {
+        margin-top: 10px !important;
     }
 }
 
