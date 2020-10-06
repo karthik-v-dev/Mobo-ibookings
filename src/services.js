@@ -5,7 +5,7 @@ import 'react-bootstrap';
 export default function Services() {
 	return (
 		<div className='container-fluid'>
-			<div>
+			<div style={{ marginTop: '20px' }}>
 				<h2>Welcome to ibookings</h2>
 				<h4>
 					The booking management system that works for your business

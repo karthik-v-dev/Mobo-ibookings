@@ -1,8 +1,10 @@
 .img {
-    height: 140px;
-    max-width: 220px;
+    height: 10%;
+    max-width: 100%;
 
 }
+
+
 
 img {
     width: 100%;
@@ -33,9 +35,6 @@ button:hover {
 }
 
 .img-wrapper {
-    display: inline-block;
-
-
     border-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -69,8 +68,10 @@ button:hover {
 }
 
 .container {
-    padding: 2px 16px;
-    max-width: 220px;
+    padding: 2px 0px;
+    max-width: 200px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .owl-item {
