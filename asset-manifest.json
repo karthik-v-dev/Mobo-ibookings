@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Mobo-ibookings/static/css/main.bc46e7db.chunk.css",
+    "main.js": "/Mobo-ibookings/static/js/main.771ea9e6.chunk.js",
+    "main.js.map": "/Mobo-ibookings/static/js/main.771ea9e6.chunk.js.map",
+    "runtime-main.js": "/Mobo-ibookings/static/js/runtime-main.d896c146.js",
+    "runtime-main.js.map": "/Mobo-ibookings/static/js/runtime-main.d896c146.js.map",
+    "static/css/2.828be9a0.chunk.css": "/Mobo-ibookings/static/css/2.828be9a0.chunk.css",
+    "static/js/2.a152b979.chunk.js": "/Mobo-ibookings/static/js/2.a152b979.chunk.js",
+    "static/js/2.a152b979.chunk.js.map": "/Mobo-ibookings/static/js/2.a152b979.chunk.js.map",
+    "index.html": "/Mobo-ibookings/index.html",
+    "precache-manifest.8af012d7a143e856501967d48b44b5d8.js": "/Mobo-ibookings/precache-manifest.8af012d7a143e856501967d48b44b5d8.js",
+    "service-worker.js": "/Mobo-ibookings/service-worker.js",
+    "static/css/2.828be9a0.chunk.css.map": "/Mobo-ibookings/static/css/2.828be9a0.chunk.css.map",
+    "static/css/main.bc46e7db.chunk.css.map": "/Mobo-ibookings/static/css/main.bc46e7db.chunk.css.map",
+    "static/js/2.a152b979.chunk.js.LICENSE.txt": "/Mobo-ibookings/static/js/2.a152b979.chunk.js.LICENSE.txt",
+    "static/media/Ibapp.png": "/Mobo-ibookings/static/media/Ibapp.79a8ded7.png",
+    "static/media/img1.jpg": "/Mobo-ibookings/static/media/img1.19c7609e.jpg",
+    "static/media/searchimg.css": "/Mobo-ibookings/static/media/img10.587c16fe.jpg",
+    "static/media/img3.jpg": "/Mobo-ibookings/static/media/img3.456d23be.jpg",
+    "static/media/img4.jpg": "/Mobo-ibookings/static/media/img4.17ac45c4.jpg",
+    "static/media/img5.jpg": "/Mobo-ibookings/static/media/img5.322cba69.jpg",
+    "static/media/img6.jpg": "/Mobo-ibookings/static/media/img6.3767d803.jpg",
+    "static/media/websiteimg11.png": "/Mobo-ibookings/static/media/websiteimg11.d9bdea92.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d896c146.js",
+    "static/css/2.828be9a0.chunk.css",
+    "static/js/2.a152b979.chunk.js",
+    "static/css/main.bc46e7db.chunk.css",
+    "static/js/main.771ea9e6.chunk.js"
+  ]
+}
