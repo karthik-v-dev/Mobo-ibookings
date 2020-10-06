@@ -5,7 +5,6 @@
     margin: 0;
     width: 100%;
     height: 90vh;
-
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,13 +15,66 @@
 
 }
 
+h2 {
+    font-size: 3rem !important;
+}
 
-@media(max-width:1200px) {
-    .FqnKTc {
-        visibility: hidden;
+h1 {
+    font-size: 3.5rem !important;
+}
+
+h3 {
+    font-size: 2.5rem !important;
+}
+
+h4 {
+    font-size: 2rem !important;
+}
+
+h5 {
+    font-size: 1.6rem !important;
+}
+
+@media only screen and (min-width: 1200px) {
+    .row {
+        padding-top: 23% !important;
+
+    }
+
+    .table .form-control {
+        width: 20%;
     }
 }
 
+@media only screen and (min-width: 992px) {
+    .row {
+        padding-top: 23% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .row {
+        padding-top: 25% !important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .row {
+        padding-top: 28%;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .row {
+        padding-top: 40%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .row {
+        padding-top: 80%;
+    }
+}
 
 .FqnKTc {
     font-size: 2.1vw;
@@ -36,9 +88,10 @@
 
 .table {
     width: 60%;
+
 }
 
-.form-Control {
+.table .form-control {
     border: 0 !important;
     width: 35%;
     outline: none !important;
@@ -49,7 +102,7 @@
     margin-left: 10px !important;
 }
 
-.form-Control:focus {
+.table .form-control:focus {
     border-color: transparent !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
@@ -59,6 +112,7 @@
 .bg-white {
     border-radius: 12px;
     width: 100%;
+    display: inline-flex;
 }
 
 th {
@@ -69,14 +123,15 @@ th {
     margin-left: auto !important;
     margin-right: auto !important;
     width: 100%;
-    padding-top: 23%;
+    display: inline-flex;
+
 
 }
 
 
 
 .gly {
-
+    top: 3vh;
     height: 2%;
     width: 2%;
 

@@ -4,7 +4,19 @@
 
 }
 
+.nav-link {
+    font-size: 1vw;
+}
 
+.collapse {
+    float: right;
+    margin-right: 15px;
+}
+
+.lts {
+    float: left;
+    margin-right: 10%;
+}
 
 .imgres {
     max-width: 100%;
@@ -34,7 +46,7 @@ img {
 
 .nav-right {
     float: right;
-    margin-right: 30px;
+
 }
 
 
@@ -55,16 +67,62 @@ img {
 }
 
 .navbar-brand {
-    padding-left: 5% !important;
-    padding-top: 0.3125% !important;
-}
-
-.collapse {
-    padding-top: 0.93% !important;
+    /* margin-right: 5% !important;
+    padding-top: 0.3125% !important; */
+    padding-left: 60px;
 }
 
 
-@media(max-width: 992px) {
+
+@media (min-width: 768px) {
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row !important;
+        flex-direction: row;
+
+    }
+
+    .nav-link {
+        font-size: 1.2vw;
+    }
+
+    /* #sz {
+        visibility: visible !important;
+
+    } */
+
+
+}
+
+@media(max-width:376px) {
+    .nav-link {
+        font-size: 3.5vw !important;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row !important;
+        flex-direction: row;
+    }
+
+    .nav-link {
+        font-size: 1.5vw;
+    }
+
+    /* #hid {
+        visibility: hidden !important;
+    }
+
+
+
+    #sz {
+        visibility: visible !important;
+
+    } */
+}
+
+/* @media(max-width: 992px) {
     #hid {
         visibility: hidden !important;
     }
@@ -80,19 +138,14 @@ img {
     }
 }
 
-@media (min-width: 992px) {
-    #hid {
-        visibility: visible !important;
-    }
 
-}
 
 @media (min-width: 768px) {
     .navbar-expand-lg .navbar-nav {
         -ms-flex-direction: row !important;
         flex-direction: row;
     }
-}
+} */
 
 .nav>li>a:focus,
 .nav>li>a:hover {
@@ -102,10 +155,13 @@ img {
 
 .stic {
     position: fixed;
+    padding: 8px 0px;
     width: 100%;
     z-index: 999;
     top: 0;
-
+    clear: both;
+    content: "";
+    display: inline-table;
 
 }
 

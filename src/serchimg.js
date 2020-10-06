@@ -2,7 +2,7 @@ import React from 'react';
 import './searchimg.css';
 export default function Serchimg() {
 	return (
-		<div>
+		<div className='hight'>
 			<div className='Search'>
 				<div className='row'>
 					<table
@@ -15,14 +15,14 @@ export default function Serchimg() {
 									<form method='Post' className='bg-white'>
 										<input
 											type='text'
-											className='form-Control '
+											className='form-control '
 											placeholder='What would you like to book'
 										/>
 
 										<span className='  FqnKTc'>|</span>
 										<input
 											type='text'
-											className='form-Control '
+											className='form-control '
 											placeholder='Location'
 										/>
 										<span className='glyphicon glyphicon-screenshot  gly'></span>

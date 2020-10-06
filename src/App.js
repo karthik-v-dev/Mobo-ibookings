@@ -17,7 +17,7 @@ class App extends React.Component {
 	componentDidMount() {
 		document.addEventListener('scroll', () => {
 			const backgroundcolor =
-				window.scrollY < 50 ? 'transparent' : 'White';
+				window.scrollY < 5 ? 'transparent' : 'White';
 
 			this.setState({ navBackground: backgroundcolor });
 		});
@@ -25,40 +25,30 @@ class App extends React.Component {
 	render() {
 		return (
 			<Router>
-				<div className=' stic '>
-					<nav
-						className='navbar navbar-expand-lg navbar-light '
-						style={{
-							backgroundColor: `${this.state.navBackground}`,
-						}}
-					>
-						<span className='navbar-brand'>
-							<img
-								src={require('./images/logo.png')}
-								alt='logo'
-								width='150'
-								height='40'
-								className='imgres'
-							></img>
-						</span>
-						<button
-							className='navbar-toggler hidden-lg-up'
-							type='button'
-							data-toggle='collapse'
-							data-target='#collapsibleNavId'
-							aria-controls='collapsibleNavId'
-							aria-expanded='false'
-							aria-label='Toggle navigation'
-						>
-							<span
-								className='glyphicon glyphicon-tasks'
-								id='sz'
-							></span>
-						</button>
-						<div
+				<div
+					className=' stic '
+					style={{
+						backgroundColor: `${this.state.navBackground}`,
+					}}
+				>
+					<nav className=' navbar-expand-lg navbar-light '>
+						{' '}
+						<div className='lts'>
+							<span className='navbar-brand'>
+								<img
+									src={require('./images/logo.png')}
+									alt='logo'
+									width='150'
+									height='40'
+									className='imgres'
+								></img>
+							</span>
+						</div>
+						{/* <div
 							className='collapse navbar-collapse'
 							id='collapsibleNavId'
-						>
+						> */}
+						<div>
 							<ul className='navbar-nav mr-auto mt-2 mt-lg-0 nav  nav-right '>
 								<li className='nav-item '>
 									<Link
@@ -83,12 +73,20 @@ class App extends React.Component {
 									</Link>
 								</li>
 								<li className='nav-item '>
-									<Link className='nav-link'>
-										<span
-											className='glyphicon glyphicon-tasks'
-											id='hid'
-										></span>
-									</Link>
+									<a className='nav-link'>
+										<i class='fa fa-bars' id='hid'></i>
+									</a>
+									{/* <a
+										className='navbar-toggler hidden-lg-up'
+										type='button'
+										data-toggle='collapse'
+										data-target='#collapsibleNavId'
+										aria-controls='collapsibleNavId'
+										aria-expanded='false'
+										aria-label='Toggle navigation'
+									>
+										<i class='fa fa-bars' id='sz'></i>
+									</a> */}
 								</li>
 							</ul>
 						</div>

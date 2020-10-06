@@ -7,15 +7,30 @@
 }
 
 .back {
-	background: linear-gradient(180deg,
-			#ffffff,
-			#ffffff,
-			#b0efe1,
-			#88eee7,
-			#6de9f8,
-			#81deff,
-			#a4d1ff,
-			#c3c3f6);
+
+	background: linear-gradient(180deg, #69b993, #83ba9f, #9abbac, #b0bcb9, #c0c0c4, #cbc7cd, #d6cfd7, #e1d6e1);
+}
+
+@media only screen and (min-width: 496px) {
+	#Rig {
+
+		text-align: center;
+	}
+}
+
+.form-group .form-control {
+
+
+	font-size: 1.5vw !important;
+
+}
+
+label {
+	font-size: 1.5vw !important;
+}
+
+.Con {
+	margin-top: 5% !important;
 }
 
 .btn-dark {
@@ -28,14 +43,14 @@
 
 .reds {
 	color: rgb(221, 13, 13);
-	font-size: 1.2px;
+	font-size: 1.5vw;
 }
 
 #Lef {
 	float: left;
 	width: 58%;
-
-	height: 29%;
+	margin-top: 4%;
+	height: auto;
 	padding: 2% 2% 2% 8.5% !important;
 }
 
@@ -47,39 +62,27 @@
 	float: left;
 	width: 38%;
 	padding: 6% 5% 2% 2% !important;
-	height: 29%;
+	height: auto;
 	text-align: left;
+
 }
 
 #Lef,
 #Rig {
-	margin: 100px 10px;
+
 
 	padding: 0px 10px;
 }
 
-.butts {
-	background-color: #ffffff;
+.btn {
+	background-color: rgb(16, 25, 40);
 	/* White */
 	border: none;
-	color: darkgray;
-	padding: 12px 20px;
+	color: rgb(253, 252, 252);
+	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 10px;
 	font-size: 1vw;
-}
-
-.butts:hover {
-	background-color: #ffffff !important;
-	/* White */
-	border: none !important;
-	color: darkgray !important;
-	padding: 12px 20px !important;
-	text-align: center !important;
-	text-decoration: none !important;
-	display: inline-block !important;
-	border-radius: 10px !important;
-	font-size: 1vw !important;
 }

@@ -4,7 +4,10 @@
 
 }
 
-
+img {
+    width: 100%;
+    height: auto;
+}
 
 .owl-next:hover,
 .owl-pre:hover {
