@@ -8,8 +8,8 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br /> Open
-[https://karthik-v-dev.github.io/Mobo-ibookings/](https://karthik-v-dev.github.io/Mobo-ibookings/)
-to view it in the browser.
+[https://karthik-v-dev.github.io/](https://karthik-v-dev.github.io/) to view it
+in the browser.
 
 The page will reload if you make edits.<br /> You will also see any lint errors
 in the console.
