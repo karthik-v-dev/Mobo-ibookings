@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aaf671f581ab2fffaefe04dee5feec7f",
+    "revision": "12a1b7b2d661c3275f3d72c223e776c0",
     "url": "/Mobo-ibookings/index.html"
   },
   {
