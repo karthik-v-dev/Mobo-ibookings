@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Mobo-ibookings/static/css/main.775d6f27.chunk.css",
-    "main.js": "/Mobo-ibookings/static/js/main.6760774a.chunk.js",
-    "main.js.map": "/Mobo-ibookings/static/js/main.6760774a.chunk.js.map",
+    "main.css": "/Mobo-ibookings/static/css/main.dbd74a0f.chunk.css",
+    "main.js": "/Mobo-ibookings/static/js/main.389d4c3f.chunk.js",
+    "main.js.map": "/Mobo-ibookings/static/js/main.389d4c3f.chunk.js.map",
     "runtime-main.js": "/Mobo-ibookings/static/js/runtime-main.d896c146.js",
     "runtime-main.js.map": "/Mobo-ibookings/static/js/runtime-main.d896c146.js.map",
     "static/css/2.828be9a0.chunk.css": "/Mobo-ibookings/static/css/2.828be9a0.chunk.css",
-    "static/js/2.a152b979.chunk.js": "/Mobo-ibookings/static/js/2.a152b979.chunk.js",
-    "static/js/2.a152b979.chunk.js.map": "/Mobo-ibookings/static/js/2.a152b979.chunk.js.map",
+    "static/js/2.0266109d.chunk.js": "/Mobo-ibookings/static/js/2.0266109d.chunk.js",
+    "static/js/2.0266109d.chunk.js.map": "/Mobo-ibookings/static/js/2.0266109d.chunk.js.map",
     "index.html": "/Mobo-ibookings/index.html",
-    "precache-manifest.61850144e8e7cff1ba3b781dc474d371.js": "/Mobo-ibookings/precache-manifest.61850144e8e7cff1ba3b781dc474d371.js",
+    "precache-manifest.ee1e28321c6d84853a0af6795f1bbd5a.js": "/Mobo-ibookings/precache-manifest.ee1e28321c6d84853a0af6795f1bbd5a.js",
     "service-worker.js": "/Mobo-ibookings/service-worker.js",
     "static/css/2.828be9a0.chunk.css.map": "/Mobo-ibookings/static/css/2.828be9a0.chunk.css.map",
-    "static/css/main.775d6f27.chunk.css.map": "/Mobo-ibookings/static/css/main.775d6f27.chunk.css.map",
-    "static/js/2.a152b979.chunk.js.LICENSE.txt": "/Mobo-ibookings/static/js/2.a152b979.chunk.js.LICENSE.txt",
+    "static/css/main.dbd74a0f.chunk.css.map": "/Mobo-ibookings/static/css/main.dbd74a0f.chunk.css.map",
+    "static/js/2.0266109d.chunk.js.LICENSE.txt": "/Mobo-ibookings/static/js/2.0266109d.chunk.js.LICENSE.txt",
     "static/media/Ibapp.png": "/Mobo-ibookings/static/media/Ibapp.79a8ded7.png",
     "static/media/img1.jpg": "/Mobo-ibookings/static/media/img1.19c7609e.jpg",
     "static/media/searchimg.css": "/Mobo-ibookings/static/media/img10.587c16fe.jpg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.d896c146.js",
     "static/css/2.828be9a0.chunk.css",
-    "static/js/2.a152b979.chunk.js",
-    "static/css/main.775d6f27.chunk.css",
-    "static/js/main.6760774a.chunk.js"
+    "static/js/2.0266109d.chunk.js",
+    "static/css/main.dbd74a0f.chunk.css",
+    "static/js/main.389d4c3f.chunk.js"
   ]
 }
