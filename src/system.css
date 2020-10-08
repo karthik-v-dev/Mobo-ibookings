@@ -9,15 +9,14 @@
 #center,
 #right {
     float: left;
-    text-align: justify;
-    text-justify: inter-word;
+
     text-align: left;
     justify-content: center;
 }
 
 
 #left {
-    width: 43%;
+    width: 50%;
 
 
 }
@@ -30,12 +29,7 @@
 
 #center,
 #right {
-    width: 23%;
-    text-justify: inter-ideograph;
+    width: 25%;
 
 
-}
-
-#right {
-    margin-left: 47px;
 }

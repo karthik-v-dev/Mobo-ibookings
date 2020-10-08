@@ -15,48 +15,12 @@ export default function Mainbody() {
 				<Serchimg />
 			</div>
 
-			<div className='container-fluid setting1'>
+			<div className='setting1'>
 				<Services />
 			</div>
 			<div className='container-fluid setting2'>
 				<h2 className='setting5'> Features businesses near you</h2>
 
-				<Gridcard
-					imgUrl={require('./images/img10.jpg')}
-					title='Modren, Well Appointed Room'
-					rating="<span class='fa fa-star checked'></span>"
-					description='36b Talbot green, liantrisant,Wales,CF72BAF'
-				/>
-				<Gridcard
-					imgUrl={require('./images/img10.jpg')}
-					title='Modren, Well Appointed Room'
-					rating="<span class='fa fa-star checked'></span>"
-					description='36b Talbot green, liantrisant,Wales,CF72BAF'
-				/>
-				<Gridcard
-					imgUrl={require('./images/img10.jpg')}
-					title='Modren, Well Appointed Room'
-					rating="<span class='fa fa-star checked'></span>"
-					description='36b Talbot green, liantrisant,Wales,CF72BAF'
-				/>
-				<Gridcard
-					imgUrl={require('./images/img10.jpg')}
-					title='Modren, Well Appointed Room'
-					rating="<span class='fa fa-star checked'></span>"
-					description='36b Talbot green, liantrisant,Wales,CF72BAF'
-				/>
-				<Gridcard
-					imgUrl={require('./images/img10.jpg')}
-					title='Modren, Well Appointed Room'
-					rating="<span class='fa fa-star checked'></span>"
-					description='36b Talbot green, liantrisant,Wales,CF72BAF'
-				/>
-				<Gridcard
-					imgUrl={require('./images/img10.jpg')}
-					title='Modren, Well Appointed Room'
-					rating="<span class='fa fa-star checked'></span>"
-					description='36b Talbot green, liantrisant,Wales,CF72BAF'
-				/>
 				<Gridcard
 					imgUrl={require('./images/img10.jpg')}
 					title='Modren, Well Appointed Room'

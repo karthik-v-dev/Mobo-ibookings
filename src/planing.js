@@ -16,103 +16,103 @@ export class Planing extends Component {
 						nav
 						margin={10}
 					>
-						<div className='img-wrapper '>
+						<div className='img-wrapper col-md-15  '>
 							<img
 								className='img inner-img'
 								src={require('./images/img10.jpg')}
 								alt='test'
 							/>
-							<div class='container'>
+							<div class='containers mb-1'>
 								<h5>Business name</h5>
 							</div>
 						</div>
-						<div className='img-wrapper'>
+						<div className='img-wrapper col-md-15 mb-md-0 mb-5'>
 							<img
 								className='img inner-img'
 								src={require('./images/img10.jpg')}
 								alt='test'
 							/>
-							<div class='container'>
+							<div class='containers mb-1 '>
 								<h5>Business name</h5>
 							</div>
 						</div>
-						<div className='img-wrapper'>
+						<div className='img-wrapper col-md-15 mb-md-0 mb-5'>
 							<img
 								className='img inner-img'
 								src={require('./images/img10.jpg')}
 								alt='test'
 							/>
-							<div class='container'>
+							<div class='containers mb-1'>
 								<h5>Business name</h5>
 							</div>
 						</div>
-						<div className='img-wrapper'>
+						<div className='img-wrapper col-md-15 mb-md-0 mb-5'>
 							<img
 								className='img inner-img'
 								src={require('./images/img10.jpg')}
 								alt='test'
 							/>
-							<div class='container'>
+							<div class='containers mb-1 '>
 								<h5>Business name</h5>
 							</div>
 						</div>
-						<div className='img-wrapper'>
+						<div className='img-wrapper col-md-15 mb-md-0 mb-5'>
 							<img
 								className='img inner-img'
 								src={require('./images/img10.jpg')}
 								alt='test'
 							/>
-							<div class='container'>
+							<div class='containers mb-1 '>
 								<h5>Business name</h5>
 							</div>
 						</div>
-						<div className='img-wrapper'>
+						<div className='img-wrapper col-md-15 mb-md-0 mb-5'>
 							<img
 								className='img inner-img'
 								src={require('./images/img10.jpg')}
 								alt='test'
 							/>
-							<div class='container'>
+							<div class='containers mb-1 '>
 								<h5>Business name</h5>
 							</div>
 						</div>
-						<div className='img-wrapper'>
+						<div className='img-wrapper col-md-15 mb-md-0 mb-5 '>
 							<img
 								className='img inner-img'
 								src={require('./images/img10.jpg')}
 								alt='test'
 							/>
-							<div class='container'>
+							<div class='containers mb-1 '>
 								<h5>Business name</h5>
 							</div>
 						</div>
-						<div className='img-wrapper'>
+						<div className='img-wrapper col-md-15 mb-5'>
 							<img
 								className='img inner-img'
 								src={require('./images/img10.jpg')}
 								alt='test'
 							/>
-							<div class='container'>
+							<div class='containers mb-1'>
 								<h5>Business name</h5>
 							</div>
 						</div>
-						<div className='img-wrapper'>
+						<div className='img-wrapper col-md-15 mb-md-0 mb-5'>
 							<img
 								className='img inner-img'
 								src={require('./images/img10.jpg')}
 								alt='test'
 							/>
-							<div class='container'>
+							<div class='containers mb-1 '>
 								<h5>Business name</h5>
 							</div>
 						</div>
-						<div className='img-wrapper'>
+						<div className='img-wrapper col-md-15 mb-md-0 mb-5 '>
 							<img
 								className='img inner-img'
 								src={require('./images/img10.jpg')}
 								alt='test'
 							/>
-							<div class='container'>
+							<div class='containers mb-1 '>
 								<h5>Business name</h5>
 							</div>
 						</div>

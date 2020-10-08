@@ -1,13 +1,4 @@
-.Con::after {
-	content: '';
-	clear: both;
-	display: table;
-	width: 100%;
-	text-align: center;
-}
-
 .back {
-
 	background: linear-gradient(180deg,
 			#ffffff,
 			#ffffff,
@@ -17,85 +8,23 @@
 			#81deff,
 			#a4d1ff,
 			#c3c3f6);
-}
 
-@media only screen and (min-width: 496px) {
-	#Rig {
+	padding-top: 12% !important;
+	padding-bottom: 5%;
+	z-index: 1;
 
-		text-align: center;
-	}
-}
-
-.form-group .form-control {
-
-
-	font-size: 1.5vw !important;
-
-}
-
-label {
-	font-size: 1.5vw !important;
-}
-
-
-#Lef {
-	margin-top: 140px !important;
-}
-
-#Rig {
-	margin-top: 100px !important;
 }
 
 .btn-dark {
-	border-radius: 8px;
+	margin-left: 15px;
 }
 
-.btn-dark:hover {
-	color: white !important;
+.Stic {
+	z-index: 999;
 }
 
-.reds {
-	color: rgb(221, 13, 13);
-	font-size: 1.5vw;
-}
 
-#Lef {
-	float: left;
-	width: 58%;
-	margin-top: 4%;
-	height: auto;
-	padding: 2% 2% 2% 8.5% !important;
-}
+.row {
 
-#cols {
-	color: rgb(223, 123, 33);
-}
-
-#Rig {
-	float: left;
-	width: 38%;
-	padding: 6% 5% 2% 2% !important;
-	height: auto;
-	text-align: left;
-
-}
-
-#Lef,
-#Rig {
-
-
-	padding: 0px 10px;
-}
-
-.btn {
-	background-color: rgb(16, 25, 40);
-	/* White */
-	border: none;
-	color: rgb(253, 252, 252);
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	border-radius: 10px;
-	font-size: 1vw;
+	padding-top: 0% !important;
 }

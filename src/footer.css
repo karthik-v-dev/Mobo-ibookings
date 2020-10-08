@@ -5,17 +5,8 @@
     height: auto;
 }
 
-
 .setting9 {
     background-color: rgb(242, 242, 247);
-}
-
-#corner {
-    margin-left: 22px;
-}
-
-#right {
-    margin-left: 17px;
 }
 
 #corner,
@@ -24,10 +15,8 @@
 #right1 {
     float: left;
     padding: 30px 5px;
-
+    text-align: left;
     justify-content: center;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 #left1 {

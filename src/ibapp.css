@@ -2,29 +2,20 @@
     content: "";
     clear: both;
     display: contents;
-    width: Calc(100%-15px);
+    width: 100%;
     height: auto;
     padding: 20px;
 
 
 }
 
-#lefts,
-#rights {
-    width: 50%;
-    float: left;
-    justify-content: center;
-}
 
-#lefts {
-    text-align: center;
+.IB1 {
+    text-align: left;
+    top: 80px;
 }
 
 
-#rights {
-
-    margin-top: 50px;
-}
 
 .but3 {
     border-radius: 5px;
@@ -41,9 +32,10 @@
 
 
 
-#lefts img {
-    width: 50%;
+.IB img {
+    width: 70%;
     height: auto;
+
 }
 
 

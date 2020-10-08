@@ -8,32 +8,8 @@
 
 }
 
-#Left {
-    float: left;
-    width: 48%;
-    color: whitesmoke;
-
-
-}
-
-
-
-#Right {
-    float: left;
-    width: 48%;
-
-
-}
-
-p {
-    font-size: 2vw !important;
-    font-family: 'Suravaram', serif !important;
-}
-
-#Left,
-#Right {
-    margin: 5% 1%;
-
+.WEB {
+    padding: 30px 10px;
 }
 
 .butts {

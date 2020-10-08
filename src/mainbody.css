@@ -1,13 +1,19 @@
 .setting2 {
     background-color: rgba(242, 242, 247, 0.6);
-    margin-top: 24px;
-    padding: 60px 0px;
-    padding-left: 25px;
-
-
 }
 
+p {
+    font-size: 18px !important;
+    font-family: 'Crimson Text', serif;
+}
 
+body {
+    overflow-x: hidden !important;
+}
+
+.navbar {
+    width: Calc(100%-15px) !important;
+}
 
 .setting6 {
     background-color: rgb(255, 255, 255);

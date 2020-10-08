@@ -2,47 +2,132 @@ import React from 'react';
 import './footer.css';
 function Footer() {
 	return (
-		<div>
-			<div className='container-fluid setting9'>
-				<div id='Contain'>
-					<div id='left1'>
-						<h4>About ibooking</h4>
-						<p>
-							ibooking.co.uk is cloud based booking management
-							software which allows small businesses to manage
-							their own bookings with convenience...
-							<span style={{ color: 'orange' }}>Read more</span>
+		// <!-- footer content -->
+		<div className='container-fluid'>
+			<div class='p-4 ontainer' style={{ background: '#f3f3f3' }}>
+				<div class='row'>
+					<div class='col-md-5 mb-5'>
+						<h6 class=''>About ibooking</h6>
+						<p class='mt-2 font-weight-normal'>
+							ibooking.co.uk is a cloud based booking management
+							software which allows small business to manage their
+							own bookings with convenience...
+							<a herf='#' class='text-danger'>
+								Read more
+							</a>
 						</p>
-						<span>
-							<button className='but1'>Business</button>
-							<button className='but2'>Customer</button>
-						</span>
+						<button
+							class='btn btn-light px-4'
+							style={{ background: 'white', color: 'black' }}
+						>
+							Business
+						</button>
+						<button
+							class='btn btn-warning px-4'
+							style={{ background: 'orangered', color: '#fff' }}
+						>
+							Customer
+						</button>
 					</div>
+					{/* // <!----> */}
+					<div class='col-md-2 mb-5'>
+						<h5 class=' font-weight-bold'>Company</h5>
 
-					<div id='center1'>
-						<h4>Company</h4>
-						<p>Search Item</p>
-						<p>Pricing</p>
-						<p>Business Profile</p>
-						<p>Cantact</p>
+						{/* <!--unorder list--> */}
+						<ul class='list-unstyled'>
+							<li class='my-2'>
+								<a href='#' class='text-dark'>
+									Search Item
+								</a>
+							</li>
+							<li class='my-2'>
+								<a href='#' class='text-dark'>
+									Pricing
+								</a>
+							</li>
+							<li class='my-2'>
+								<a href='#' class='text-dark'>
+									Business Profile
+								</a>
+							</li>
+							<li class='my-2'>
+								<a href='#' class='text-dark'>
+									Contact
+								</a>
+							</li>
+						</ul>
 					</div>
+					{/* // <!-----> */}
 
-					<div id='corner'>
-						<h4>Leagal Stuff</h4>
-						<p> Privacy Policy</p>
-						<p> Terms &amp; Conditions</p>
-						<p>FAQ</p>
+					<div class='col-md-2 mb-4'>
+						<h5 class='font-weight-bold'>Legal Stuff</h5>
+						{/* <!--unorder list--> */}
+						<ul class='list-unstyled'>
+							<li class=' my-2'>
+								<a href='#' class='text-dark'>
+									Privacy policy
+								</a>
+							</li>
+							<li class=' my-2'>
+								<a href='#' class='text-dark'>
+									Terms &amp; Conditions
+								</a>
+							</li>
+							<li class=' my-2'>
+								<a href='#' class='text-dark'>
+									FAQ
+								</a>
+							</li>
+						</ul>
 					</div>
-					<div id='right1'>
-						<h4>Get In Touch</h4>
-						<p>
-							<i className='fab fa-twitter ff'></i>
-							<i className='fab fa-facebook-f ff'></i>
-						</p>
-						<p>
-							<i className='fab fa-instagram ff'></i>
-							<i className='fa fa-envelope ff'></i>
-						</p>
+					{/* <!----> */}
+
+					<div class='col-md-2 mb-4'>
+						<h5 class='font-weight-bold'>Get in Touch</h5>
+						<div>
+							<div class='row'>
+								<div class='col-md-2'>
+									<a href='#'>
+										<i
+											class='fab fa-twitter text-dark mx-auto px-auto my-2'
+											style={{
+												fontSize: '20px',
+												padding: '10px',
+											}}
+										></i>
+									</a>
+									<a href='#'>
+										<i
+											class='fab fa-instagram text-dark mx-auto px-auto my-2'
+											style={{
+												fontSize: '20px',
+												padding: '10px',
+											}}
+										></i>
+									</a>
+								</div>
+								<div class='col-md-2'>
+									<a href='#'>
+										<i
+											class='fab fa-facebook-square text-dark mx-auto px-auto my-2'
+											style={{
+												fontSize: '20px',
+												padding: '10px',
+											}}
+										></i>
+									</a>
+									<a href='#'>
+										<i
+											class='fab fa-twitter text-dark mx-auto px-auto my-2'
+											style={{
+												fontSize: '20px',
+												padding: '10px',
+											}}
+										></i>
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

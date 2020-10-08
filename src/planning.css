@@ -1,15 +1,10 @@
-.img {
-    height: 10%;
-    max-width: 100%;
+/* .img {
+    height: 140px;
+    max-width: 220px;
 
-}
+} */
 
 
-
-img {
-    width: 100%;
-    height: auto;
-}
 
 .owl-next:hover,
 .owl-pre:hover {
@@ -35,6 +30,9 @@ button:hover {
 }
 
 .img-wrapper {
+    display: inline-block;
+
+
     border-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -47,6 +45,11 @@ button:hover {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
+}
+
+.containers h5 {
+    text-align: center;
+    justify-content: center;
 }
 
 .container-fluid button {
@@ -67,12 +70,11 @@ button:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container {
-    padding: 2px 0px;
-    max-width: 200px;
-    text-align: justify;
-    text-justify: inter-word;
-}
+/*
+.containers {
+    padding: 2px 16px;
+
+} */
 
 .owl-item {
 
