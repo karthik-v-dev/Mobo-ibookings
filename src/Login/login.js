@@ -7,15 +7,14 @@ export default function Login() {
 		// <!-- contact form -->
 
 		// <!--Section: Contact v.2-->
-		<section class=' pt-4 bg-light back container-fluid'>
+		<section class=' pt-4 bg-light back  container-fluid'>
 			{/* <!--Section heading--> */}
 
 			{/* <!--Section description--> */}
-
+			<h2 class='h1-responsive  my-4'>Contact ibooking</h2>
 			<div class='row'>
 				{/* <!--Grid column--> */}
 				<div class='col-md-7 mb-md-0 mb-5'>
-					<h2 class='h1-responsive  my-4'>Contact ibooking</h2>
 					<form
 						id='contact-form'
 						name='contact-form'

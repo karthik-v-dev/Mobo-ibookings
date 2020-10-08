@@ -9,11 +9,23 @@
 			#a4d1ff,
 			#c3c3f6);
 
-	padding-top: 12% !important;
+	padding-top: 10% !important;
 	padding-bottom: 5%;
 	z-index: 1;
 
 }
+
+@media(max-width:576px) {
+	.back {
+		padding-top: 25% !important;
+	}
+}
+
+/* @media(min-width:320px) {
+	.back {
+		padding-top: 25% !important;
+	}
+} */
 
 .btn-dark {
 	margin-left: 15px;

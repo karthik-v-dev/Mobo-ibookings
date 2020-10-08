@@ -45,7 +45,7 @@
     }
 
     .table {
-
+        margin-left: 30% !important;
         margin-top: 50% !important;
     }
 
@@ -59,11 +59,11 @@
 
 @media(max-width:320px) {
     .bg-white .form-Control {
-        width: 20% !important;
+        width: 25% !important;
     }
 
     .table {
-
+        margin-left: 35% !important;
         margin-top: 70% !important;
     }
 
