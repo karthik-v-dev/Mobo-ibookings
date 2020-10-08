@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "525b52c0e10524575faebcca88643a4f",
+    "revision": "4b5467693f4278419e90fa8c4b8b9d94",
     "url": "/Mobo-ibookings/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mobo-ibookings/static/css/2.828be9a0.chunk.css"
   },
   {
-    "revision": "c8e64a6bd4a1084a95bf",
-    "url": "/Mobo-ibookings/static/css/main.dbd74a0f.chunk.css"
+    "revision": "11775b358ff1e2b57812",
+    "url": "/Mobo-ibookings/static/css/main.c8e7518b.chunk.css"
   },
   {
     "revision": "b3d2045961dfe6508d37",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mobo-ibookings/static/js/2.0266109d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c8e64a6bd4a1084a95bf",
-    "url": "/Mobo-ibookings/static/js/main.389d4c3f.chunk.js"
+    "revision": "11775b358ff1e2b57812",
+    "url": "/Mobo-ibookings/static/js/main.f75b13d0.chunk.js"
   },
   {
     "revision": "e6f2568aa7e53ad54820",
